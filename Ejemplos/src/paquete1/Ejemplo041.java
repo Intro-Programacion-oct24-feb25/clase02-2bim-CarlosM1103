@@ -16,7 +16,7 @@ public class Ejemplo041 {
      */
     public static void main(String[] args) {
         // Declarar y generar arreglos en Java
-        
+
         // arreglo de tipo entero
         // int[] arreglo1 = new int[5];
         int suma = 0;
@@ -27,14 +27,14 @@ public class Ejemplo041 {
         for (int i = 0; i < arreglo1.length; i++) {
             suma = suma + arreglo1[i];
             acumulador = String.format("%sSubíndice o Índice %d, "
-                    + "con valor %d\n", 
-                    acumulador,i, arreglo1[i]);
+                    + "con valor %d\n",
+                    acumulador, i, arreglo1[i]);
         }
-        acumulador = String.format("%sLa suma total es: %d\n", 
+        acumulador = String.format("%sLa suma total es: %d\n",
                 acumulador, suma);
-        System.out.printf("%s\n", 
+        System.out.printf("%s\n",
                 acumulador);
-        
+
     }
 
 }
