@@ -17,7 +17,7 @@ public class Ejemplo05 {
     public static void main(String[] args) {
         // Declarar y generar arreglos en Java
         Scanner leer = new Scanner(System.in);
-        System.out.println("Ingrese el n[umeor de elementos");
+        System.out.println("Ingrese el numero de elementos");
         int numero_elementos = leer.nextInt();
         // arreglo de tipo entero
         int[] arreglo1 = new int[numero_elementos];
