@@ -19,6 +19,7 @@ public class Ejemplo02 {
 
         // arreglo de tipo entero
         int[] arreglo1 = new int[5];
+       
         System.out.println(arreglo1[0]);
         System.out.println(arreglo1[1]);
         System.out.println(arreglo1[2]);
@@ -30,6 +31,7 @@ public class Ejemplo02 {
         System.out.println(arreglo2[0]);
         
         // arreglo de tipo String
+        // Imprime null ya que no hay nada declarado en String
         String[] arreglo4 = new String[5];
         System.out.println(arreglo4[0]);
         
